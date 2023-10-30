@@ -172,3 +172,20 @@
   border: 1px solid #b052b5;
   background-color: transparent;
 }
+
+.label_ {
+  color: #b052b5;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+
+}
+
+/* textarea */
+
+#area51{
+    resize: none;
+    background-color: transparent;
+}

@@ -112,7 +112,7 @@
 .main_form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   width: 864px;
   height: 876px;
@@ -180,12 +180,21 @@
   font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 162.5% */
-
 }
 
 /* textarea */
 
-#area51{
-    resize: none;
-    background-color: transparent;
+#area51 {
+  resize: none;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid #b052b5;
+}
+#area51::placeholder{
+    color: rgba(158, 141, 158, 0.71);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
 }

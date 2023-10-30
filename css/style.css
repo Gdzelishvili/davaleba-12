@@ -112,8 +112,7 @@
 .main_form {
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: center;
+  align-items: left;
   width: 864px;
   height: 876px;
   padding: 48px calc(200 / 1440 * 100%);
@@ -133,6 +132,11 @@
   line-height: 26px; /* 81.25% */
   letter-spacing: 4px;
   margin-bottom: 80px;
+}
+
+.name_and_email {
+  display: flex;
+  column-gap: 24px;
 }
 #form_name,
 #form_email {
@@ -190,11 +194,86 @@
   border-radius: 8px;
   border: 1px solid #b052b5;
 }
-#area51::placeholder{
-    color: rgba(158, 141, 158, 0.71);
+#area51::placeholder {
+  color: rgba(158, 141, 158, 0.71);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.check_div {
+  margin: 24px 0 40px;
+}
+
+.send_bu {
+  width: 464px;
+  padding: 19px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #b052b5;
+  background-color: #f30aea;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+}
+
+/* footer start */
+
+.footer_main {
+  display: flex;
+  height: 232px;
+  padding: 48px 72px;
+  align-items: start;
+  gap: 345px;
+  background: #01aca9;
+}
+
+.contact_us{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer_text_h {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+  margin-bottom: 16px;
+}
+
+.social_med {
+  display: flex;
+  column-gap: 24px;
+}
+
+.last_h6 {
+  color: #f5e0f5;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px; /* 176.923% */
+}
+
+.cont_info{
+    color: #FFF;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px; /* 162.5% */
+    line-height: 26px; /* 162.5% */   
+}
+
+.location, .phone_num, .email_us{
+    display: flex;
+    column-gap: 8px;
 }
